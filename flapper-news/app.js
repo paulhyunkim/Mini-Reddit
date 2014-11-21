@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/news');
+require('./models/Posts');
 
 var express = require('express');
 var path = require('path');
